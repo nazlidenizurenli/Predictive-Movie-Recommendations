@@ -1,0 +1,29 @@
+Movie Recommendation System
+
+How to run the programs:
+
+cosine_similarity.py will run simply by using the command:
+
+    >> python cosine_similarity.py
+
+This will output all 3 files: result5.txt, result10.txt, and result20.txt
+
+pearson.py which includes the modifications IUF and Case Amplification
+will run per test file provided as an argument via the command line i.e.
+
+    >> python pearson.py test5.txt
+    >> python pearson.py test10.txt
+    >> python pearson.py test20.txt
+
+item_based.py which is implemented using adjusted cosine similarity
+will run per test file provided as an argument via the command line i.e.
+
+    >> python item_based.py test5.txt
+    >> python item_based.py test10.txt
+    >> python item_based.py test20.txt
+
+combine.py (self made algorithm) will run given the non rounded files
+provided in the directories: /pearson_outputs and /cosine_outputs
+This program will run simply with the command:
+
+    >> python combine.py
